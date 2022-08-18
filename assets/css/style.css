@@ -232,6 +232,15 @@ h6 {
   background-size: cover;
 }
 
+@media (max-width:490px) {
+  #hero{
+    
+    background: url("../img/hero-bg1.jpg") top left;
+  }
+
+  
+}
+
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
